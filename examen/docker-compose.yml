@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  experta:
+    container_name: experta
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/home/MIA2324
